@@ -75,10 +75,11 @@ const Menu = ({ history }) => {
             <li className="nav-item">
               <div className="dropdown" data-bs-placement="left">
                 <span
-                  className="dropdown-toggle bx bxs-user-circle user-profile-icon ms-4 bg-secondary rounded cursor-pointer"
+                  className="dropdown-toggle bx bxs-user-circle user-profile-icon ms-4 bg-secondary cursor-pointer"
                   id="dropdownMenuButton"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
+                  style={{ backgroundColor: "#1aa3b5", borderRadius: "50%" }}
                 ></span>
                 <ul
                   className="dropdown-menu dropdown-menu-end bg-secondary text-center fw-bold"
